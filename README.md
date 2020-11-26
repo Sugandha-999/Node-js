@@ -37,8 +37,9 @@ You can fetch the packages, install them and use in your project.</p>
  <h1>Packages can be installed :1️⃣ Locally  2️⃣ Globally</h1>
  <p><u><b>Locally</b></u>👉 When you are in your project directory and install the packages using above commands, packages are installed locally in your current directory.
   "npm install package_name" this command installs the package in your current directory and the package gets installed inside "node_modules" folder in the project directory.
- ⭐ Each time you make a new project, you have to install the packages using the above commands. After installing packages can be used using "require" keyword.
-  <u><b>Globally</b></u>👉 To install the packages globally, use the command 👉 <b>"npm install -g package_name"</b>
+  <img src="https://github.com/Sugandha-999/Node-js/blob/main/package_lock_ss.png">
+ ⭐ Each time you make a new project, you have to install the packages using the above commands. After installing packages can be used using "require" keyword.</p>
+  <p><u><b>Globally</b></u>👉 To install the packages globally, use the command 👉 <b>"npm install -g package_name"</b>
  ⭐ This installs the package globally so that all node.js applications on the device can import and use the installed packages.<b>NPM installs global packages into /<User>/local/lib/node_modules folder.</b></p>
  <p>❗Packages can be updated and uninstalled using the commands : "npm update package_name" and "npm uninstall package_name". Update command will update the package to the latest version and uninstall means local package is removed from the directory.</p>
 <h3> You can contact me 👉https://www.linkedin.com/in/sugandha-malhotra-a95685193/
