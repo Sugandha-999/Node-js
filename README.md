@@ -44,4 +44,4 @@ You can fetch the packages, install them and use in your project.</p>
  <p>❗Packages can be updated and uninstalled using the commands : "npm update package_name" and "npm uninstall package_name". Update command will update the package to the latest version and uninstall means local package is removed from the directory.</p>
 <h3> You can contact me :</h3> 
   <a href="https://www.linkedin.com/in/sugandha-malhotra-a95685193/"><img src="https://github.com/Sugandha-999/Node-js/blob/main/linkedin.png" height="30px" width="30px">
-  
+  <a href="https://www.github.com/Sugandha-999/"><img src="https://github.com/Sugandha-999/Node-js/blob/main/github.png" height="30px" width="30px">
