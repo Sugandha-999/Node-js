@@ -42,4 +42,4 @@ You can fetch the packages, install them and use in your project.</p>
   <p><u><b>Globally</b></u>👉 To install the packages globally, use the command 👉 <b>"npm install -g package_name"</b>
  ⭐ This installs the package globally so that all node.js applications on the device can import and use the installed packages.<b>NPM installs global packages into /<User>/local/lib/node_modules folder.</b></p>
  <p>❗Packages can be updated and uninstalled using the commands : "npm update package_name" and "npm uninstall package_name". Update command will update the package to the latest version and uninstall means local package is removed from the directory.</p>
-<h3> You can contact me 👉https://www.linkedin.com/in/sugandha-malhotra-a95685193/
+<h3> You can contact me 👉 <a href="https://www.linkedin.com/in/sugandha-malhotra-a95685193/"><img src="https://github.com/Sugandha-999/Node-js/blob/main/linkedin.png" height="100px" width="100px">
