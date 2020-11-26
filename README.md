@@ -26,6 +26,7 @@ You can fetch the packages, install them and use in your project.</p>
   <li>Head over to the terminal</li>
   <li>Move into your project directory</li>
   <li>Use <b>"npm init"</b> command <b>👉This command will generate the package.json file inside your project directory.This file comprises of dependencies and version control of them in your project</b></li>
+  <img src="https://github.com/Sugandha-999/Node-js/blob/main/npmcommands.png">
   <li>You can change or set to default by simply pressing enter key until everything gets started and then you can move further</li>
   <li>Express is the most used and the most famous framework, it can be used by installing "express" package</li>
   <li>Command used for installing any package-><b>"npm install package_name"</b> <b>Example: for express, we need to write "npm install express" command in terminal.</b></li>
