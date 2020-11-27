@@ -50,9 +50,10 @@ You can fetch the packages, install them and use in your project.</p>
  <p>❗Packages can be updated and uninstalled using the commands : "npm update package_name" and "npm uninstall package_name". Update command will update the package to the latest version and uninstall means local package is removed from the directory.</p>
  <h3> Local Modules 😀</h3>
  <p>These modules are created locally in your node.js application, then save it in a file and you can reuse it by including it into other files using "require" keyword.
-  😁You can even package it and distribute it via NPM, so that Node.js community can use it. </p>
- <b>❗Example: In this code, I have made a local module named as "app.js" file. This is a calculator code module</b>
- ```code
+  😁You can even package it and distribute it via NPM, so that Node.js community can use it. 
+ <b>❗Example: In this code, I have made a local module named as "app.js" file. This is a calculator code module❗</b></p>
+` Local module code`
+ ```javascript
  var calculator={
   add:function(a,b){
     console.log("Add function output : "+ (a+b));
@@ -68,10 +69,11 @@ You can fetch the packages, install them and use in your project.</p>
   }
 };
 module.exports= calculator;
-```
+``````end
 <p>☝️ this code shows a module of a calculator that gives output based on function we require </p>
 Now is the code of our main file "sample.js" in which we "require" this local module.
-```code
+> Code 
+```javascript
 const express=require("express");
 const app=express();
 
@@ -82,7 +84,7 @@ calc.add(3,4);
 app.listen(3000,function(req,res){
   console.log("Server is running at port 3000");
 });
-```
+```end
 <p>☝️ here we have required the local module and called the "add" function.
   <b>Now lets see the output on our terminal:</b></p>
   <img src="https://github.com/Sugandha-999/Node-js/blob/main/Output%20module.png">
