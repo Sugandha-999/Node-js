@@ -51,38 +51,14 @@ You can fetch the packages, install them and use in your project.</p>
  <h3> Local Modules 😀</h3>
  <p>These modules are created locally in your node.js application, then save it in a file and you can reuse it by including it into other files using "require" keyword.
   😁You can even package it and distribute it via NPM, so that Node.js community can use it. 
- <b>❗Example: In this code, I have made a local module named as "app.js" file. This is a calculator code module❗</b></p>
- >Local module
- ```
- var calculator={
-  add:function(a,b){
-    console.log("Add function output : "+ (a+b));
-  },
-  subtract:function(a,b){
-    console.log("Subtract function output: "+(a-b));
-  }
-};
-module.exports= calculator;
-```
-
+ <b>❗Example: In this code, I have uploaded a local module file named as "app.js" file. This is a calculator code module❗</b></p>
+ <img src=" ">
 <p>☝️ this code shows a module of a calculator that gives output based on function we require </p>
-Now is the code of our main file "sample.js" in which we "require" this local module.
-> Code 
-```
-const express=require("express");
-const app=express();
-
-var calc=require("./app.js");
-
-calc.add(3,4);
-
-app.listen(3000,function(req,res){
-  console.log("Server is running at port 3000");
-});
-```
+Also uploaded the code of our main file "sample.js" in which we "require" calculator local module.
+<img src=" ">
 <p>☝️ here we have required the local module and called the "add" function.
   <b>Now lets see the output on our terminal:</b></p>
-  <img src="https://github.com/Sugandha-999/Node-js/blob/main/Output%20module.png">
+<img src="https://github.com/Sugandha-999/Node-js/blob/main/Output%20module.png">
 <h3><u>⭐Module.exports</u></h3>
 <p>We have used "module.exports" in above code also. Module.exports is basically a special object that is used to expose a function, object, variable as a <b>module</b> in node.js. In above code, module.exports exposes calculator object as a module. We can use "module.exports" or "exports".</p>
 <h2>⚡Here is the special code of MySQL connectivity in Node.js, in which "database.js" file is used as a local module.</h2>
