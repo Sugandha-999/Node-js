@@ -52,7 +52,7 @@ You can fetch the packages, install them and use in your project.</p>
  <p>These modules are created locally in your node.js application, then save it in a file and you can reuse it by including it into other files using "require" keyword.
   😁You can even package it and distribute it via NPM, so that Node.js community can use it. 
  <b>❗Example: In this code, I have uploaded a local module file named as "app.js" file. This is a calculator code module❗</b></p>
- <img src=" ">
+ <img src="https://github.com/Sugandha-999/Node-js/blob/main/Localmodule_code.png ">
 <p>☝️ this code shows a module of a calculator that gives output based on function we require </p>
 Also uploaded the code of our main file "sample.js" in which we "require" calculator local module.
 <img src=" ">
