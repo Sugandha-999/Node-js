@@ -3,8 +3,8 @@ var mysql=require("my-sql");
 var connection = mysql.createConnection({
 	host     : 'localhost',
 	user     : 'root',
-	password : '',
-	database : 'database_name'
+	password : '',    // give your root password here
+	database : 'database_name'  //mention the name of the database that you want to link your app with
 });
 connection.connect(function(err){
 	if(!err){
@@ -14,4 +14,4 @@ connection.connect(function(err){
 	}
 });
 //Connection done
-module.exports=connection;
+module.exports=connection;  // used to expose connection as a local module
