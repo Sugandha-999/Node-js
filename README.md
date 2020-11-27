@@ -55,14 +55,13 @@ You can fetch the packages, install them and use in your project.</p>
  <img src="https://github.com/Sugandha-999/Node-js/blob/main/Localmodule_code.png ">
 <p>☝️ this code shows a module of a calculator that gives output based on function we require </p>
 Also uploaded the code of our main file "sample.js" in which we "require" calculator local module.
-<img src=" ">
+<img src="https://github.com/Sugandha-999/Node-js/blob/main/samplejs_code.png ">
 <p>☝️ here we have required the local module and called the "add" function.
   <b>Now lets see the output on our terminal:</b></p>
 <img src="https://github.com/Sugandha-999/Node-js/blob/main/Output%20module.png">
 <h3><u>⭐Module.exports</u></h3>
 <p>We have used "module.exports" in above code also. Module.exports is basically a special object that is used to expose a function, object, variable as a <b>module</b> in node.js. In above code, module.exports exposes calculator object as a module. We can use "module.exports" or "exports".</p>
 <h2>⚡Here is the special code of MySQL connectivity in Node.js, in which "database.js" file is used as a local module.</h2>
-
 <h3>Contact me via 👉
   <a href="https://www.linkedin.com/in/sugandha-malhotra-a95685193/"><img src="https://github.com/Sugandha-999/Node-js/blob/main/linkedin.png" height="30px" width="30px"></a>
   <a href="https://www.github.com/Sugandha-999/"><img src="https://github.com/Sugandha-999/Node-js/blob/main/github.png" height="30px" width="30px"></a></h3>
