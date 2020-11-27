@@ -62,6 +62,7 @@ Also uploaded the code of our main file "sample.js" in which we "require" calcul
 <h3><u>⭐Module.exports</u></h3>
 <p>We have used "module.exports" in above code also. Module.exports is basically a special object that is used to expose a function, object, variable as a <b>module</b> in node.js. In above code, module.exports exposes calculator object as a module. We can use "module.exports" or "exports".</p>
 <h2>⚡Here is the special code of MySQL connectivity in Node.js, in which "database.js" file is used as a local module.</h2>
+[Code](https://github.com/Sugandha-999/Node-js/blob/main/database.js)
 <h3>Contact me via 👉
   <a href="https://www.linkedin.com/in/sugandha-malhotra-a95685193/"><img src="https://github.com/Sugandha-999/Node-js/blob/main/linkedin.png" height="30px" width="30px"></a>
   <a href="https://www.github.com/Sugandha-999/"><img src="https://github.com/Sugandha-999/Node-js/blob/main/github.png" height="30px" width="30px"></a></h3>
